@@ -11,3 +11,20 @@ body {
 h1 {
     color:rgb(38, 82, 121);
 }
+
+.card1, .card2, .card3 {
+    background-color: rgb(229, 245, 199);
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(243, 240, 240);
+    border-radius: 15px;
+}
+
+.card2 {
+    background-color: rgb(199, 232, 245);
+}
+
+.card3 {
+    background-color: rgb(184, 236, 199);
+}
+
