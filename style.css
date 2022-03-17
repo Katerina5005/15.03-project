@@ -5,4 +5,9 @@ body {
     font-family: Lato;
     font-weight: normal;
     background: rgb(149, 180, 161);
+    color:  #0f141e;
+}
+
+h1 {
+    color:rgb(38, 82, 121);
 }
