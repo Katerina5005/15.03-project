@@ -12,23 +12,25 @@
 </head>
 <body>
     <div class="container">
-        <img class="avatar" src="pixel.jpg" alt="pic" width="150">
-        <h1>Gazizova Kate</h1>
-    
-        <p>I study <strong>Web development</strong>
-             and want to become <strong>Frontend Developer</strong> in this year.
-             </p>
-        <p>I like to <em>read</em>
-            ,<em> study</em> new courses about programming and <em>go for a walk.</em></p>
-    
-        <h3>My contacts:</h3>
-    
-        <a href="https://t.me/KatyVClub" target="_blank">Telegram |</a>
-        <a href="https://www.youtube.com/watch?v=kgx4WGK0oNU" target="_blank">YouTube |</a>
-        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-        <hr>
-    
+            <img class="avatar" src="pixel.jpg" alt="pic" width="150">
+            <div class="info">
+                <h1>Gazizova Kate</h1>
+            
+                <p>I study <strong>Web development</strong>
+                    and want to become <strong>Frontend Developer</strong> in this year.
+                    </p>
+                <p>I like to <em>read</em>
+                    ,<em> study</em> new courses about programming and <em>go for a walk.</em></p>
+            </div>
+            <h3>My contacts:</h3>
+        
+            <a href="https://t.me/KatyVClub" target="_blank">Telegram |</a>
+            <a href="https://www.youtube.com/watch?v=kgx4WGK0oNU" target="_blank">YouTube |</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <hr>
+        
         <div class="card1">
+            <div class="box"></div>
             <h3>My hobby:</h3>
     
             <ul>
@@ -38,6 +40,7 @@
             </ul></div>
         
         <div class="card2">
+            <div class="box"></div>
             <h3>Experience:</h3>
     
         <table width="400">
@@ -67,27 +70,28 @@
             </tbody>
         </table>
         </div>
-    
-        <div class="card3">
-            <h3>Write me:</h3>
-    
-        <div>
-            <label for="text">Name:</label>
-                <input type="text" id="text" placeholder="Your name">
-        </div>
-        <div>
-            <label for="email">E-mail:</label>
-                <input type="text" id="email" placeholder="Your e-mail">
-        </div>
-        <div>
-            <label for="message">Your message:</label>
-            <br>
-            <textarea name="message" id="message" cols="30" rows="5" placeholder="write message..."></textarea>
-        </div>
-        <button class="btn">Send!</button>
-    
-        </div>
-
+        <form action="/" class="form">
+            <div class="card3">
+                <div class="box"></div>
+                <h3>Write me:</h3>
+            <div class="form-row">  
+                <div class="form-group">
+                    <label for="text">Name:</label>
+                    <input type="text" id="text" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" placeholder="Your e-mail">
+                </div>
+            </div> 
+            <div class="form-group">
+                <label for="message">Your message:</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="write message..."></textarea>
+            </div>
+            <button class="btn">Send!</button>
+        
+            </div>
+        </form>
     </div>
 
    
